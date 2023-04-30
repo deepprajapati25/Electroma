@@ -5,9 +5,9 @@ from tkinter import messagebox
 from twilio.rest import Client
 
 
-account_sid = "AC563c4715fe1a4e6f6e0dad8d0db8ab0c"
-auth_token = "c9ac4313d66736a964e592f18590f609"
-verify_sid = "VAd89e7f513cee045f88717e335b57123b"
+account_sid = "your ac sid"
+auth_token = "your auth token"
+verify_sid = "your verify sid here"
 
 client = Client(account_sid, auth_token)
 class Signup:
